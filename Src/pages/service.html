@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>serivce</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/Src/styles/service.css" />
+  </head>
+  <body>
+    <div class="flex flex-wrap place-items-center">
+      <section class="relative mx-auto">
+        <nav class="flex justify-between bg-gray-300 text-black w-screen h-25">
+          <div
+            class="px-5 xl:px-12 py-6 flex w-full items-center justify-between text-xl font-[Open_Sans]"
+          >
+            <ul class="hidden md:flex px-4 font-bold font-heading space-x-20">
+              <li><a class="hover:text-red-600" href="#">Home</a></li>
+              <li><a class="hover:text-red-600" href="#">About</a></li>
+              <li><a class="hover:text-red-600" href="#">Services</a></li>
+              <li><a class="hover:text-red-600" href="#">Project</a></li>
+            </ul>
+            <img class="w-25" src="/Src/assets/images/logo.png" alt="" />
+            <ul class="hidden md:flex px-4 font-bold font-heading space-x-20">
+              <li><a class="hover:text-red-600" href="#">FAQ</a></li>
+              <li><a class="hover:text-red-600" href="#">Blog</a></li>
+              <li><a class="hover:text-red-600" href="#">Shop's</a></li>
+              <li><a class="hover:text-red-600" href="#">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+    </div>
+    <section
+      class="relative h-screen flex flex-col items-center justify-center text-center text-white"
+    >
+      <div
+        class="video-docker absolute top-0 left-0 w-screen h-150 overflow-hidden my-5"
+      >
+        <video
+          class="w-screen min-h-full absolute object-cover"
+          src="../assets/videos/video.mp4"
+          type="video/mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+      </div>
+      <div class="video-content space-y-2 z-10"></div>
+    </section>
+
+    <style>
+      .video-docker video {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .video-docker::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      }
+    </style>
+    <div
+      class="underline underline-offset-8 font-bold text-3xl text-[#A47A07] p-8"
+    >
+      <h1>Service</h1>
+    </div>
+    <div
+      class="flex justify-between grid grid-cols-4 gap-4 justify-items-center"
+    >
+      <div
+        class="w-2xs h-100 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-white-500 hover:shadow-xl"
+      >
+        <div class="w-2xs h-60 bg-pink-500 rounded-t-lg">
+          <img src="../assets/images/photo1.jpg" class="h-60 w-2xs" />
+        </div>
+
+        <div
+          class="w-2xs h-40 rounded-md justify-items-center justify-conten-center"
+        >
+          <p class="text-center font-[Open_Sans]">
+            See Our Latest Design Project Debut at Livingetc The newest Studio
+            McGee reveal, The Oaks Project, out now on Livingetc.
+          </p>
+          <button
+            class="cursor-pointer bg-[#0F0FDB] w-25 h-10 my-3 rounded-xl text-white hover:bg-sky-700"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="w-2xs h-100 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-white-500 hover:shadow-xl"
+      >
+        <div class="w-2xs h-60 bg-pink-500 rounded-t-lg">
+          <img src="../assets/images/photo2.jpg" class="h-60 w-2xs" />
+        </div>
+
+        <div
+          class="w-2xs h-40 rounded-md justify-items-center justify-conten-center"
+        >
+          <p class="text-center font-[Open_Sans]">
+            Materials That Bring the Winter Cozy A few of our favorite elements
+            that turn cold to cozy.
+          </p>
+          <button
+            class="cursor-pointer bg-[#0F0FDB] w-25 h-10 my-3 rounded-xl text-white hover:bg-sky-700"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="w-2xs h-100 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-white-500 hover:shadow-xl"
+      >
+        <div class="w-2xs h-60 bg-pink-500 rounded-t-lg">
+          <img src="../assets/images/photo3.jpg" class="h-60 w-2xs" />
+        </div>
+
+        <div
+          class="w-2xs h-40 rounded-md justify-items-center justify-conten-center"
+        >
+          <p class="text-center font-[Open_Sans]">
+            Top Ten Design Projects Ten-Year Anniversary | Counting down the
+            pivotal design projects that built Studio McGee'
+          </p>
+          <button
+            class="cursor-pointer bg-[#0F0FDB] w-25 h-10 my-3 rounded-xl text-white hover:bg-sky-700"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="w-2xs h-100 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-white-500 hover:shadow-xl"
+      >
+        <div class="w-2xs h-60 bg-pink-500 rounded-t-lg">
+          <img src="../assets/images/photo4.jpg" class="h-60 w-2xs" />
+        </div>
+
+        <div
+          class="w-2xs h-40 rounded-md justify-items-center justify-conten-center"
+        >
+          <p class="text-center font-[Open_Sans]">
+            From Renderings to Reality | Tahoe Pines Explore the Tahoe Pines
+            renderings and see how far styling goes to complete a space.
+          </p>
+          <button
+            class="cursor-pointer bg-[#0F0FDB] w-25 h-10 my-3 rounded-xl text-white hover:bg-sky-700"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="w-2xs h-100 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-white-500 hover:shadow-xl"
+      >
+        <div class="w-2xs h-60 bg-pink-500 rounded-t-lg">
+          <img src="../assets/images/photo5.jpg" class="h-60 w-2xs" />
+        </div>
+
+        <div
+          class="w-2xs h-40 rounded-md justify-items-center justify-conten-center"
+        >
+          <p class="text-center font-[Open_Sans]">
+            Inside a Bunkroom Made for Childhood Magic The playful lake house
+            aesthetic in Tahoe Pines.
+          </p>
+          <button
+            class="cursor-pointer bg-[#0F0FDB] w-25 h-10 my-3 rounded-xl text-white hover:bg-sky-700"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="w-2xs h-100 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-white-500 hover:shadow-xl"
+      >
+        <div class="w-2xs h-60 bg-pink-500 rounded-t-lg">
+          <img src="../assets/images/photo6.jpg" class="h-60 w-2xs" />
+        </div>
+
+        <div
+          class="w-2xs h-40 rounded-md justify-items-center justify-conten-center"
+        >
+          <p class="text-center font-[Open_Sans]">
+            Inside a Wood-Wrapped Office | The Summit Estate See the inspiration
+            behind Shea’s choices
+          </p>
+          <button
+            class="cursor-pointer bg-[#0F0FDB] w-25 h-10 my-3 rounded-xl text-white hover:bg-sky-700"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="w-2xs h-100 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-white-500 hover:shadow-xl"
+      >
+        <div class="w-2xs h-60 bg-pink-500 rounded-t-lg">
+          <img src="../assets/images/photo7.jpeg" class="h-60 w-2xs" />
+        </div>
+
+        <div
+          class="w-2xs h-40 rounded-md justify-items-center justify-conten-center"
+        >
+          <p class="text-center font-[Open_Sans]">
+            McGee & Co. Outdoor | The Small Details Focusing on the design
+            details that make our latest outdoor collection special.
+          </p>
+          <button
+            class="cursor-pointer bg-[#0F0FDB] w-25 h-10 my-3 rounded-xl text-white hover:bg-sky-700"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="w-2xs h-100 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-white-500 hover:shadow-xl"
+      >
+        <div class="w-2xs h-60 bg-pink-500 rounded-t-lg">
+          <img src="../assets/images/photo8.jpg" class="h-60 w-2xs" />
+        </div>
+
+        <div
+          class="w-2xs h-40 rounded-md justify-items-center justify-conten-center"
+        >
+          <p class="text-center font-[Open_Sans]">
+            Inside the McGee Home Refresh Pantry Take a tour of the moodier
+            pantry palette of the McGee Home Refresh.
+          </p>
+          <button
+            class="cursor-pointer bg-[#0F0FDB] w-25 h-10 my-3 rounded-xl hover:bg-sky-700 text-white"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
